@@ -26,8 +26,8 @@ var allColorBtnFold = document.querySelectorAll(".foldParent .more__color-item")
 var allColorBtnFold2 = document.querySelectorAll(".foldParent2 .thongso__booking__pic-color--item");
 var allColorBtnFlip = document.querySelectorAll(".flipParent .more__color-item");
 
-var allColorBtnFlip2 = document.querySelectorAll(".flipParent .thongso__booking__pic-color--item");
-var allColorBtnFlip3 = document.querySelectorAll(".flipParent .thongso__booking__pic-color--item");
+var allColorBtnFlip2 = document.querySelectorAll(".flipParent2 .thongso__booking__pic-color--item");
+var allColorBtnFlip3 = document.querySelectorAll(".flipParent3 .thongso__booking__pic-color--item");
 
 var romlistFold = document.querySelectorAll(".foldParent .more__rom-item");
 var romlistFold2 = document.querySelectorAll(".foldParent2 .thongso__booking-rom-item");
@@ -203,7 +203,19 @@ allColorBtnFlip.forEach(function(ColorBtn){
   }
 })
 
-
+function changePhoneFlip2(ColorBtn){
+  console.log("LOL")
+  var kid = ColorBtn.querySelector("img");
+  if(kid.classList.contains("mint")) {
+    flipImgEle2.src = "./assets/image/datve/cacc.png"
+  }else if(kid.classList.contains("xam")) {
+    flipImgEle2.src = "./assets/image/datve/Flipxam.png"
+  } else if(kid.classList.contains("tim")) {
+    flipImgEle2.src = "./assets/image/datve/fliptim.png"
+  } else {
+    flipImgEle2.src = "./assets/image/datve/flipkem.png"
+  }
+}
 
 allColorBtnFlip2.forEach(function(ColorBtn){
   ColorBtn.onclick = function(e){
@@ -211,10 +223,12 @@ allColorBtnFlip2.forEach(function(ColorBtn){
       if(ColorBtn.querySelector("img").classList.contains("select")){
         ColorBtn.querySelector("img").classList.remove("select")
       }
+      console.log("lol")
     })
 
     ColorBtn.querySelector("img").classList.add("select")
     changePhoneFlip2(ColorBtn);
+    
   }
 })
 
@@ -268,18 +282,7 @@ function changePhoneFlip(ColorBtn){
   }
 }
 
-function changePhoneFlip2(ColorBtn){
-  var kid = ColorBtn.querySelector("img");
-  if(kid.classList.contains("mint")) {
-    flipImgEle2.src = "./assets/image/datve/cacc.png"
-  }else if(kid.classList.contains("xam")) {
-    flipImgEle2.src = "./assets/image/datve/Flipxam.png"
-  } else if(kid.classList.contains("tim")) {
-    flipImgEle2.src = "./assets/image/datve/fliptim.png"
-  } else {
-    flipImgEle2.src = "./assets/image/datve/flipkem.png"
-  }
-}
+
 
 function changePhoneFlip3(ColorBtn){
   var kid = ColorBtn.querySelector("img");
