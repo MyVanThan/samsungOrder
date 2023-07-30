@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rancho', cursive;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #6ABFB4;
+  --semi-color: #FB7D35;
+  --grey-color: #7A7A7A;
+  --white-color: #FFFFFF;
+}

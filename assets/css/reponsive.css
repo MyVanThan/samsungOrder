@@ -1,0 +1,452 @@
+.show-on-pc{
+  display: flex;
+}
+.hide_on_pc {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+  #datve {
+    display: none;
+  }
+  .thongso__booking__pic {
+    justify-content: center;
+  }
+  .thongso__booking-rom-list {
+    justify-content: center;
+  }
+  .thongso__booking-rom-item {
+    margin: 15px;
+  }
+
+  .thongso__tab {
+    margin-top: 30px;
+  }
+
+  .header__galaxy  .galaxy__name{
+    margin: 0 auto;
+  }
+
+  .galaxy__price {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .galaxy__img {
+    justify-content: center;
+  }
+
+  .galaxy__des {
+    justify-content: center;
+  }
+
+  .header__mono {
+    margin-top: 30px;
+  }
+}
+
+/* mobile & tablet */
+@media screen and (max-width: 1024px) {
+  .thongso__container{
+    padding: 0;
+    display: block;
+  }
+  .footer {
+    padding-top: 0;
+  }
+  .hide_on_tab {
+    display: none;
+  }
+  .show-on-tab{
+    display: flex;
+  }
+  .footer__body {
+    display: block;
+    margin: 0;
+    padding: 0 10px;
+  }
+  .lienhe__header {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 200px;
+    margin: 0;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+    margin-top: 10px;
+  }
+  .lienhe {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+
+  .lienhe__item a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /*chinh sach*/
+  .chinhsach__header {
+    background-color: white;
+    font-size: 14px;
+    width: 200px;
+    margin: 0;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  .chinhsach {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+ 
+  .chinhsach__item a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* thong tin khac */
+  .others__header {
+    background-color: white;
+    font-size: 14px;
+    width: 200px;
+    margin: 0;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  .others {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+
+  .others__item a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lienhe__item {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .chinhsach__item {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .others__item {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  .footer__show--btn {
+    align-items: center;
+  }
+  .footer__show--item {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.3s linear;
+  }
+  .footer__show--item.show {
+    height: 85px;
+  }
+ 
+  .footer__show--btn.show .footer__show--item {
+    margin-top: 30px;
+    opacity: 1;
+  }
+  .showlist__btn {
+    font-weight: 900px;
+    font-size: 13px;
+    align-items: center;
+  }
+  .payment__heaiding {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .payment__lol {
+    justify-content: left;
+  }
+  .footer__footer {
+    padding: 10px 10px;
+  }
+
+  .footer__copy {
+    font-size: 13px;
+    padding-right: 20px;
+  }
+  .open__hide:hover {
+    color: black;
+    background-color: white;
+  }
+  .search__container {
+    justify-content: space-between;
+  }
+  .search__bar  {
+    height: 36px;
+  }
+  .header__galaxy .galaxy__name {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .header__content {
+    margin-top: 11px;
+  }
+  .galaxy__price {
+    width: 94%;
+    margin: 0 auto;
+  }
+  .galaxy__price-num {
+    font-size: 36px;
+  }
+
+  .galaxy__img {
+    display: block;
+  }
+
+.gift__title {
+  width: 50%;
+}
+.thongso__title {
+  width: 50%;
+}
+.app {
+  overflow: hidden;
+}
+.header__logo {
+  text-align: center;
+}
+.galaxy__img-fold {
+  text-align: center;
+}
+.thongso__booking__pic-color--list {
+  padding: 0;
+}
+.galaxy__img-flip {
+  text-align: center;
+}
+.galaxy__des {
+  display: none;
+}
+
+.header__mono {
+  margin-top: 20px;
+}
+
+.galaxy__des-item {
+  text-align: center;
+}
+
+.navbar {
+  display: none;
+}
+
+.gift__title {
+  width: 60%;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.gift__title span {
+  display: block;
+}
+.intro__title {
+  display: block;
+  text-align: center;
+}
+
+.intro__title span{
+  margin: 0;
+}
+
+.thongso__title {
+  width: 70%;
+}
+.thongso__title-item  {
+    text-align: center;
+    transform: translateY(0px);
+}
+
+.thongso__title-item span {
+  font-size: 24px;
+}
+
+.thongso__title-item img {
+  width: 46%;
+}
+.thongso__title-item  + .thongso__title-item {
+  display: none;
+}
+.thongso__booking-name {
+  display: none;
+}
+
+.thongso__title-slide {
+  display: none;
+}
+
+.thongso__booking__pic{
+  justify-content: center;
+}
+
+.thongso__tab {
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+.tab__item {
+  padding-bottom: 40px;
+  margin-top: 52px;
+}
+.tab__item-key {
+  width: 50%;
+}
+
+.tab__item-value {
+  width: 50%;
+  /* text-align: right; */
+}
+.thongso__booking-rom-list {
+  justify-content: center;
+}
+.thongso__booking-rom-item{
+  width: 120px;
+  height: 60px;
+  margin: 0 5px;
+  font-size: 20px;
+}
+}
+
+/*  Mobile */
+@media screen and (max-width: 739px){
+  .votri__bar{
+    display: none;
+  }
+  .modal__close {
+    display: block;
+    float: right;
+    margin-top: 60px;
+    font-size: 30px;
+    margin-right: 18px;
+  }
+  .modal__title {
+    margin-top: 100px;
+    font-size: 26px;
+  }
+  .order__list {
+    margin-top: 26px;
+  }
+  .modal {
+    width: 100%;
+    z-index: 15;
+  }
+  .modal__container {
+    border-radius: 0;
+    height: 630px;
+  }
+  .order__item-key {
+    font-size: 12px;
+    min-width: 150px;
+  }
+
+  .modal__cash {
+    font-size: 16px;
+  }
+  .modal__footer{
+    margin-top: 50px;
+    justify-content: space-around;
+    text-align: center;
+    z-index: 100;
+  }
+  .modal__cash-num {
+    font-size: 20px;
+  }
+
+  .footer__show--parent {
+    position: relative;
+    z-index: 0;
+  }
+
+  .modal__submit {
+    width: 170px;
+    font-size: 13px;
+  }
+
+  .order__item input {
+    padding-left: 20%;
+  }
+  .order__item-value{
+    font-size: 12px;
+  }
+  .modal__container {
+    width: 100%;
+    padding: 0 8px;
+  }
+  .search__bar-link {
+    height: 40px;
+  }
+  .search__bar-link a{
+    font-size: 13px;
+  }
+  .search__container {
+    padding:0 10px;
+    justify-content: space-around;
+  }
+  .search__bar {
+    width: 60%;
+  }
+  .service__list {
+    padding: 0;
+  }
+  .hide_on_mobile {
+    display: none;
+  }
+  .show-on-mb{
+    display: flex;
+  }
+  .container__heading {
+    width: 100%;
+
+  }
+  .font12 {
+    font-size: 12px;
+  }
+  .container__heading img{
+    width: 100%;
+  }
+  .margintop0-mb{
+    margin-top: 0;
+  }
+}
