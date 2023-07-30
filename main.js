@@ -372,5 +372,8 @@ modalBtn.onclick = function(){
   order.address = modal.querySelector('[name = "home"]').value
   order.number = modal.querySelector('[name = "sdt"]').value
   console.log(order)
+  modal.querySelector('[name = "ten"]').value = ""
+  modal.querySelector('[name = "home"]').value = ""
+  modal.querySelector('[name = "sdt"]').value = ""
   modal.classList.remove("show");
 }
