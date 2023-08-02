@@ -119,7 +119,7 @@ romlistFlip.forEach(function(romItem){
       parent.querySelector(".prod__new").innerHTML = "23.490.000 đ";
     }else if(romItem.innerText == "512 GB"){
       parent.querySelector(".prod__old").innerHTML = "29.990.000 đ";
-      parent.querySelector(".prod__new").innerHTML = "35.490.000 đ";
+      parent.querySelector(".prod__new").innerHTML = "23.490.000 đ";
     }
   }
 })
@@ -139,7 +139,7 @@ romlistFlip2.forEach(function(romItem){
       parent.querySelector(".thongso__booking-price-sale").innerHTML = "23.490.000 đ";
     }else if(romItem.innerText == "512 GB"){
       parent.querySelector(".thongso__booking-price-old").innerHTML = "29.990.000 đ";
-      parent.querySelector(".thongso__booking-price-sale").innerHTML = "35.490.000 đ";
+      parent.querySelector(".thongso__booking-price-sale").innerHTML = "23.490.000 đ";
     }
   }
 })
@@ -159,7 +159,7 @@ romlistFlip3.forEach(function(romItem){
       parent.querySelector(".thongso__booking-price-sale").innerHTML = "23.490.000 đ";
     }else if(romItem.innerText == "512 GB"){
       parent.querySelector(".thongso__booking-price-old").innerHTML = "29.990.000 đ";
-      parent.querySelector(".thongso__booking-price-sale").innerHTML = "35.490.000 đ";
+      parent.querySelector(".thongso__booking-price-sale").innerHTML = "23.490.000 đ";
     }
   }
 })

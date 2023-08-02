@@ -351,6 +351,13 @@
 
 /*  Mobile */
 @media screen and (max-width: 739px){
+  .payment__list{
+    flex-wrap: wrap;
+  }
+
+  .payment__item + .payment__item{
+    margin-left: 0;
+  }
   .votri__bar{
     display: none;
   }
