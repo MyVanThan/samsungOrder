@@ -44,10 +44,20 @@ var modalRom = document.querySelector(".order__item-value--rom")
 var modalCash = document.querySelector(".modal__cash-num")
 
 var modalaCloseBtn = document.querySelector(".modal__close")
+var menu = document.querySelector("#menu")
+var menuBtn = document.querySelector(".search__menu")
+
+menuBtn.onclick = function(){
+  menu.classList.add("show")
+}
+menu.onclick = function(){
+  menu.classList.remove("show")
+}
 
 modalaCloseBtn.onclick = function(){
   modal.classList.remove("show")
 }
+
 
 romlistFold.forEach(function(romItem){
   var parent = document.querySelector(".foldParent");
